@@ -19,7 +19,7 @@
     - 直接利用threading.Thread生成Thread实例
         1. t = threading.Thread(target=xxx,args=(xxx,))
         2. t.start():启动多线程
-        3. t.join():等待多线程执行完成
+        3. t.join():主程序 等待多线程执行完成，在继续执行
         4. 案例04
         5. 案例05： 加入join
         - 守护线程-daemon
